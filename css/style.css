@@ -29,7 +29,6 @@ body {
   letter-spacing: -0.28px;
   background-color: #fafafa;
   color: var(--text-color);
-  background: var(--accent-color);
 }
 
 img {
