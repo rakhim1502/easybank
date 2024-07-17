@@ -234,6 +234,165 @@ select:-webkit-autofill:focus {
 }
 
 
+.features {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  background-color: #F4F5F7;
+}
+
+.features__heading {
+  font-size: 40px;
+  line-height: 64px;
+  letter-spacing: -0.71px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 16px;
+  color: var(--heading-color);
+  font-weight: 100;
+}
+.features__text {
+  font-size: 16px;
+  line-height: 28px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 72px;
+}
+.features__list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+  list-style: none;
+  flex-wrap: nowrap;
+}
+
+.features__item {
+  width: 255px;
+}
+
+.features__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.features__item-img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  object-position: center center;
+}
+
+.features-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 72px;
+  height: 72px;
+  margin-bottom: 40px;
+  border-radius: 50%;
+  background-image: var(--linear-color);
+}
+.feature__title {
+  margin-top: 0;
+  margin-bottom: 26px;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 100;
+  color: var(--heading-color);
+  letter-spacing: -0.43px;
+}
+.feature__text {
+  margin: 0;
+}
+
+.index-articles {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.index-articles__title {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-size: 40px;
+  line-height: 64px;
+  font-weight: 100;
+  color: var(--black);
+}
+
+.article-cards-grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  margin-left: -30px;
+  list-style: none;
+}
+
+.article-cards-grid__item {
+  width: 100%;
+  max-width: 255px;
+  margin-left: 30px;
+}
+
+.article-card {
+  border-radius: 5px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.article-card__img {
+  display: block;
+  width: 255px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.article-card__content {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.article-card__title {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 100;
+}
+
+.article-card__link {
+  display: inline-block;
+  color: var(--heading-color);
+  text-decoration: none;
+}
+
+.article-card__link:hover {
+  color: #30C88F;
+}
+
+.article-card__link:active {
+  opacity: 0.6;
+}
+
+.article-card__author {
+  order: -1;
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 10px;
+  line-height: 18px;
+}
+
+.article-card__excerpt {
+  margin: 0;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+
+
+
+
+
 
 
 
